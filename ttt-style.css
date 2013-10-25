@@ -1,0 +1,25 @@
+body div {
+	box-sizing:border-box;
+}
+
+.board {
+	background-color: blanchedalmond;
+	height: 400;
+	width: 400;
+}
+
+.row {
+	height: 33%;
+	width: 100%;
+	background-color: blanchedalmond;
+}
+
+.row div {
+	background-color: mediumorchid;
+	height: 100%;
+	width: 33%;
+	float:left;
+	border: 5px solid navy;
+	font-size: 100px;
+	text-align: center;
+}
